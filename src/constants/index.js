@@ -128,7 +128,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Designed and developed high-performance software applications using React, RTL, JavaScript, TypeScript, NodeJS, NextJS, SQL, and AWS.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -142,7 +142,7 @@ const experiences = [
     date: "July 2021 - July 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Integrated Machine Learning Algorithm for a recommendation engine and chatbot using Amazon Lex and other third party APIs.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -206,7 +206,7 @@ const projects = [
   {
     name: "Next Spotify App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based application that allows you to upload, like and listen to your faviorte music. Has user authentication and many of the same features as spotify but created using Next.js 13",
     tags: [
       {
         name: "react",
@@ -232,7 +232,7 @@ const projects = [
   {
     name: "Next Messenger App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to messenge each other in real-time. Has all the same features as facebooks messenger app but created using Next.js 13.",
     tags: [
       {
         name: "react",
@@ -251,27 +251,27 @@ const projects = [
     source_code_link: "https://github.com/rehankhan21/next-messenger",
     project_site: "https://next-messenger-two.vercel.app/",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
