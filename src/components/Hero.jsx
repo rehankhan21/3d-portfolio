@@ -23,10 +23,10 @@ const Hero = () => {
             className={`${styles.heroSubText} mt-2 text-white-100 flex flex-wrap`}
           >
             I develop Full Stack
-            <span className=" pl-3">
+            <span className=" pl-2">
               <Typewriter
                 options={{
-                  strings: [" React", " Next.js ", "Node.js", " Web"],
+                  strings: ["React", "Next", "Node", "Web"],
                   autoStart: true,
                   loop: true,
                   delay: "natural",
