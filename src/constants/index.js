@@ -29,6 +29,7 @@ import {
   perscholas,
   nextmessenger,
   dennis,
+  huntercollege,
 } from "../assets";
 
 export const navLinks = [
@@ -122,7 +123,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer  ",
+    title: "Full Stack Developer",
     company_name: "Validity",
     icon: validity,
     iconBg: "#383E56",
@@ -160,19 +161,18 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "BS in Computer Science",
+    company_name: "CUNY Hunter College",
+    icon: huntercollege,
+    iconBg: "#E6DEDD",
+    date: "June 2016 - June 2020",
+    points: [
+      "Bachelors in Computer Science",
+      "Minor in Japanese Language",
+      "Joined CUNY hackatons and developed applications in a competitive team enviroment",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -217,7 +217,7 @@ const projects = [
         color: "gray-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
@@ -240,6 +240,10 @@ const projects = [
       },
       {
         name: "next.js",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {

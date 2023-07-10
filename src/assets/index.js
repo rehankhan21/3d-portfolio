@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 import validity from "./company/validity.jpg";
 import changemachine from "./company/changemachine.jpg";
 import perscholas from "./company/perscholas.jpg";
+import huntercollege from "./company/hunter-coolege.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -67,6 +68,7 @@ export {
   validity,
   changemachine,
   perscholas,
+  huntercollege,
   carrent,
   jobit,
   tripguide,
