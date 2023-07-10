@@ -99,11 +99,11 @@ const experiences = [
     company_name: "Validity",
     icon: validity,
     iconBg: "#383E56",
-    date: "July 2022 - July 2023",
+    date: "July 2022 - Feb 2023",
     points: [
       "Designed and developed high-performance software applications using React, RTL, JavaScript, TypeScript, NodeJS, NextJS, SQL, and AWS.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designed and developed RESTful APIs to support client-side applications and built scalable and secure backend systems.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
