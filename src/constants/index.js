@@ -29,6 +29,7 @@ import {
   perscholas,
   nextmessenger,
   dennis,
+  cynthia,
   huntercollege,
 } from "../assets";
 
@@ -155,15 +156,16 @@ const testimonials = [
     designation: "Senior Salesforce Developer",
     company: "Cognizant",
     image: dennis,
+    linkdin: "https://www.linkedin.com/in/dennis-vargas-0a0185153/",
   },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
+  {
+    testimonial:
+      "Rehan remains on the cutting edge of industry trends, ensuring his work is not only functional but also in line with contemporary practices.",
+    name: "Cynthia",
+    designation: "Resident Physician",
+    company: "Psychiatry PGY-2",
+    image: cynthia,
+  },
   // {
   //   testimonial:
   //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",

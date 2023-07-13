@@ -38,6 +38,7 @@ import nextSpotify from "./next-spotify.png";
 import nextmessenger from "./next-messenger-lg.png";
 
 import dennis from "./dennisLinkdin.jpg";
+import cynthia from "./Cynthia.jpeg";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   nextSpotify,
   nextmessenger,
   dennis,
+  cynthia,
 };

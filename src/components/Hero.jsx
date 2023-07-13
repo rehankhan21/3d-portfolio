@@ -24,13 +24,35 @@ const Hero = () => {
           >
             I develop Full Stack
             <span className=" pl-2">
-              <Typewriter
+              {/* <Typewriter
                 options={{
                   strings: ["React", "Next", "Node", "Web"],
                   autoStart: true,
                   loop: true,
                   delay: "natural",
-                  deleteSpeed: "natural",
+                  deleteSpeed: 175,
+                }}
+              /> */}
+
+              <Typewriter
+                options={{ loop: true, deleteSpeed: 1000 }}
+                onInit={(typewriter) => {
+                  typewriter
+                    .pauseFor(750)
+                    .typeString("React")
+                    .pauseFor(1500)
+                    .deleteAll()
+                    .typeString("Next")
+                    .pauseFor(1500)
+                    .deleteAll()
+                    .typeString("Node")
+                    .pauseFor(1500)
+                    .deleteAll()
+                    .typeString("Web")
+                    .pauseFor(1500)
+                    .deleteAll()
+                    .start();
+                  //.changeDeleteSpeed(1000);
                 }}
               />
             </span>
