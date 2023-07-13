@@ -28,6 +28,7 @@ import {
   changemachine,
   perscholas,
   nextmessenger,
+  nextcarshow,
   dennis,
   cynthia,
   huntercollege,
@@ -229,27 +230,32 @@ const projects = [
     source_code_link: "https://github.com/rehankhan21/next-messenger",
     project_site: "https://next-messenger-two.vercel.app/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Car Show App",
+    description:
+      "A car showcase app, which allows users to search and filter through their favorite cars and see all of its features.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nextcarshow,
+    source_code_link: "https://github.com/rehankhan21/Car-Show-App",
+    project_site: "https://car-show-app.vercel.app/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

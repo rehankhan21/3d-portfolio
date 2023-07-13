@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 
 import nextSpotify from "./next-spotify.png";
 import nextmessenger from "./next-messenger-lg.png";
+import nextcarshow from './carhub.png'
 
 import dennis from "./dennisLinkdin.jpg";
 import cynthia from "./Cynthia.jpeg";
@@ -75,6 +76,7 @@ export {
   tripguide,
   nextSpotify,
   nextmessenger,
+  nextcarshow,
   dennis,
   cynthia,
 };
