@@ -32,6 +32,7 @@ import {
   dennis,
   cynthia,
   huntercollege,
+  insightglobal,
 } from "../assets";
 
 export const navLinks = [
@@ -96,6 +97,20 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full Stack Developer",
+    company_name: "Insight Global",
+    icon: insightglobal,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - Current",
+    points: [
+      "Designed and developed high-performance software applications using React, Python, FastAPI, JavaScript, TypeScript, NextJS, SQL, and AWS.",
+      "Collaborated extensively with business stakeholders to develop, design, and architect innovative solutions, ensuring alignment with business goals and user requirements.",
+      "Engaged in regular meetings with business teams to demonstrate continuous updates, showcase new features, and highlight improvements to applications, fostering a dynamic and responsive development environment.",
+      "Spearheaded the design and development of RESTful APIs and Websockets to enhance client-side application functionality, while constructing scalable and secure backend systems to ensure robust performance.",
+      "Actively engaged in code review processes, offering constructive feedback to peers, contributing to the continuous improvement of development practices and code quality.",
+    ],
+  },
   {
     title: "Full Stack Developer",
     company_name: "Validity",

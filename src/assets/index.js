@@ -29,6 +29,7 @@ import validity from "./company/validity.jpg";
 import changemachine from "./company/changemachine.jpg";
 import perscholas from "./company/perscholas.jpg";
 import huntercollege from "./company/hunter-coolege.jpg";
+import insightglobal from "./company/insight_global_logo.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -79,4 +80,5 @@ export {
   nextcarshow,
   dennis,
   cynthia,
+  insightglobal,
 };
