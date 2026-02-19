@@ -261,32 +261,32 @@ const projects = [
     source_code_link: "https://github.com/rehankhan21/next-messenger",
     project_site: "https://next-messenger-two.vercel.app/",
   },
-  {
-    name: "Car Show App",
-    description:
-      "A car showcase app, which allows users to search and filter through their favorite cars and see all of its features.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "gray-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nextcarshow,
-    source_code_link: "https://github.com/rehankhan21/Car-Show-App",
-    project_site: "https://car-show-app.vercel.app/",
-  },
+  // {
+  //   name: "Car Show App",
+  //   description:
+  //     "A car showcase app, which allows users to search and filter through their favorite cars and see all of its features.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "gray-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: nextcarshow,
+  //   source_code_link: "https://github.com/rehankhan21/Car-Show-App",
+  //   project_site: "https://car-show-app.vercel.app/",
+  // },
   {
     name: "Mini Netflix",
     description:
