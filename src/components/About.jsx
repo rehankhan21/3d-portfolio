@@ -48,7 +48,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a skilled software developer with experience in TypeScript,
-        JavaScript, and Python, and expertise in frameworks like React, Next.js, Node.js, and FastAPI. 
+        JavaScript, Java, Golang, Python, and expertise in frameworks like React, Next.js, Node.js, and FastAPI. 
         I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!

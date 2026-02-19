@@ -30,6 +30,7 @@ import changemachine from "./company/changemachine.jpg";
 import perscholas from "./company/perscholas.jpg";
 import huntercollege from "./company/hunter-coolege.jpg";
 import insightglobal from "./company/insight_global_logo.jpg"
+import ibis from "./company/ibis.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -38,6 +39,7 @@ import tripguide from "./tripguide.png";
 import nextSpotify from "./next-spotify.png";
 import nextmessenger from "./next-messenger-lg.png";
 import nextcarshow from './carhub.png'
+import miniNetflix from './mini-netflix.png'
 
 import dennis from "./dennisLinkdin.jpg";
 import cynthia from "./Cynthia.jpeg";
@@ -78,7 +80,9 @@ export {
   nextSpotify,
   nextmessenger,
   nextcarshow,
+  miniNetflix,
   dennis,
   cynthia,
   insightglobal,
+  ibis,
 };

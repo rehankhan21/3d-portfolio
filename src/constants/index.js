@@ -29,10 +29,12 @@ import {
   perscholas,
   nextmessenger,
   nextcarshow,
+  miniNetflix,
   dennis,
   cynthia,
   huntercollege,
   insightglobal,
+  ibis,
 } from "../assets";
 
 export const navLinks = [
@@ -98,11 +100,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Senior Full Stack Developer",
+    company_name: "Ibis Public Sector",
+    icon: ibis,
+    iconBg: "#383E56",
+    date: "March 2024 - Current",
+    points: [
+      "Developed internal software packages that used Python bots to help automate the workflow process, this helped decrease workload and increase productivity across multiple teams.",
+      "Developed an internal Golang CLI tool that helped deploy an EKS cluster from scratch with all the configurations and overlays needed to develop with the Big-Bang product.",
+      "Developed an application in Nextjs, React, Typescript, Nodejs, Amazon RDS, and PostgreSQL, that helped sync the external and internal repositories of Big-Bang. So that the external Big-Bang community members would be able to contribute and interact with the Big-Bang product and the Big-Bang mission.",
+      "Led multiple releases as a Release Engineer, ensuring deployments were fully functional, and passed thorough review processes.",
+      "Deployed applications to AWS EKS using a combination of Terraform, Packer, Git, Kustomize, Helm, Artifactory, and Jenkins into multiple environments. Deployment used multiple AWS services including ECR, CloudWatch, EC2, Route53, and Platform One’s Big Bang (Istio, Fluent Bit, Kyverno) in Cloud One’s environments.",
+    ],
+  },
+  {
     title: "Full Stack Developer",
     company_name: "Insight Global",
     icon: insightglobal,
     iconBg: "#E6DEDD",
-    date: "July 2023 - Current",
+    date: "July 2023 - March 2024",
     points: [
       "Designed and developed high-performance software applications using React, Python, FastAPI, JavaScript, TypeScript, NextJS, SQL, and AWS.",
       "Collaborated extensively with business stakeholders to develop, design, and architect innovative solutions, ensuring alignment with business goals and user requirements.",
@@ -270,6 +286,32 @@ const projects = [
     image: nextcarshow,
     source_code_link: "https://github.com/rehankhan21/Car-Show-App",
     project_site: "https://car-show-app.vercel.app/",
+  },
+  {
+    name: "Mini Netflix",
+    description:
+      "A site that simulates netflix homepage",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: miniNetflix,
+    source_code_link: "https://github.com/rehankhan21/mini-netflix",
+    project_site: "https://mini-netflix-ebon.vercel.app/",
   },
 ];
 
